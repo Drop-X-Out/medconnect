@@ -119,7 +119,7 @@
     </div>
     <script type="module">
         // Load appointments from Firestore and render dashboard
-    import { db } from '../firebase';
+    import { db } from '../firebase.js';
         import { collection, query, orderBy, onSnapshot } from 'https://www.gstatic.com/firebasejs/12.5.0/firebase-firestore.js';
 
         function formatDateIso(dateStr){ return dateStr; }
